@@ -6,9 +6,9 @@
 	(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 	(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
 	(property "Reference" "REF**"
-		(at 0 2.45 0)
+		(at 0 1.9 0)
 		(layer "F.SilkS")
-		(uuid "6e37b1d3-5697-46e5-b163-7de6c41a6433")
+		(uuid "23a868b1-9e78-4c4a-9ab6-0f24f90ce9c3")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -19,7 +19,7 @@
 	(property "Value" "SolderPad_1x01_SMD"
 		(at 0 2.54 0)
 		(layer "F.Fab")
-		(uuid "44679ee7-af8e-4e0b-9915-03020b0560a1")
+		(uuid "3a764cba-bd19-49f8-8f44-c39d3b7aca61")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "95d5a3e3-cc4b-4d09-9122-df3ee333f982")
+		(uuid "2cd38691-0eac-4495-b6d2-d87bb1163dd7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "73dc2097-bd02-42b0-963a-4ccfd27e3e86")
+		(uuid "dba3a0c1-536e-4da2-a858-fa28b6bc0531")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,31 +54,31 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -1.25 -2)
-		(end 1.25 2.25)
+		(start -1.25 -1.65)
+		(end 1.25 1.65)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f8d64738-41a9-4c8d-8b48-9d8bcd3243bc")
+		(uuid "db129565-4dd1-4c92-b11b-002455f39566")
 	)
 	(fp_rect
-		(start -1.15 -2)
-		(end 1.15 2.15)
+		(start -1.15 -1.6)
+		(end 1.15 1.55)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f437c7ed-018a-43ae-bea1-50d89b8b2d80")
+		(uuid "d0fbef63-a0a3-4624-8776-7512446d7cd8")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "64219f4c-9158-474e-a29d-8cea2bd94493")
+		(uuid "cd503ade-0043-4ad7-9db0-a8e55a2fdea9")
 		(effects
 			(font
 				(size 1 1)
@@ -87,17 +87,21 @@
 		)
 	)
 	(pad "" smd rect
-		(at 0 -1.6)
-		(size 1.5 0.8)
+		(at 0 -1.25)
+		(size 1.7 0.8)
 		(layers "F.Cu" "F.Mask")
-		(uuid "e6507982-0e03-4540-852a-a05307fb37d5")
+		(uuid "dcfa55d2-4ef5-47b2-9a57-3fa5bd4391a3")
 	)
 	(pad "" smd roundrect
-		(at 0 0)
-		(size 1.5 4)
+		(at 0 -0.15)
+		(size 1.7 3)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "e54de7f9-8dfe-472b-84c2-42e22a064be9")
+		(uuid "32512bd7-07aa-4a94-8e79-64690b08199e")
+	)
+	(group ""
+		(uuid "9c8189a3-566d-46c0-8b16-122b61810987")
+		(members "32512bd7-07aa-4a94-8e79-64690b08199e" "dcfa55d2-4ef5-47b2-9a57-3fa5bd4391a3")
 	)
 	(embedded_fonts no)
 )
