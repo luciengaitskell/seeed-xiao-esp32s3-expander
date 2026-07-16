@@ -5514,7 +5514,7 @@
 			(uuid "dcc4e65d-79d6-40f5-bec7-8f7ceb00d1de")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR04")
 					(unit 1)
@@ -5592,7 +5592,7 @@
 			(uuid "2f124110-63fb-4b7d-bde1-9563b2cd0f2a")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR010")
 					(unit 1)
@@ -5781,7 +5781,7 @@
 			(uuid "bf1c6299-79c0-4efa-bbf6-3b0036f5abe0")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R2")
 					(unit 1)
@@ -5860,7 +5860,7 @@
 			(uuid "baf4178d-6a7c-4125-a2fe-3c8e68910659")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR011")
 					(unit 1)
@@ -6027,7 +6027,7 @@
 			(uuid "08c60c17-674f-4e10-acd7-c9eab6cb0fda")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "K1")
 					(unit 1)
@@ -6105,7 +6105,7 @@
 			(uuid "2292b41a-6428-4eaf-99bf-1dbdd6949432")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR01")
 					(unit 1)
@@ -6297,7 +6297,7 @@
 			(uuid "1acc4f33-734e-4166-bf49-2269875afb19")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R1")
 					(unit 1)
@@ -6376,7 +6376,7 @@
 			(uuid "752857be-3b9e-49a4-a4ea-d639900e008c")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR012")
 					(unit 1)
@@ -6455,7 +6455,7 @@
 			(uuid "9c42ee9e-c998-4010-a15a-23fdbe5b0b9e")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR06")
 					(unit 1)
@@ -6534,7 +6534,7 @@
 			(uuid "ab7efedd-7854-49a1-bbc8-e97822ce03e5")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR03")
 					(unit 1)
@@ -6613,7 +6613,7 @@
 			(uuid "a69eb689-1d0c-4d32-b733-8717fdddadd4")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR07")
 					(unit 1)
@@ -6692,7 +6692,7 @@
 			(uuid "9c915504-2f1d-4834-918c-87e04768e42b")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR02")
 					(unit 1)
@@ -6770,7 +6770,7 @@
 			(uuid "fc59b8b5-ede2-411c-849e-4384c953bfa5")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR014")
 					(unit 1)
@@ -6950,7 +6950,7 @@
 			(uuid "0088ee03-08ea-48c5-bddf-5b1cabcf31d0")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "C1")
 					(unit 1)
@@ -7138,7 +7138,7 @@
 			(uuid "66794443-623a-4a97-a23f-f108932d19b8")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R5")
 					(unit 1)
@@ -7322,7 +7322,7 @@
 			(uuid "5a978f3b-9dd2-4c21-9ef4-1bc32c04a9cf")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "J2")
 					(unit 1)
@@ -7489,7 +7489,7 @@
 			(uuid "3f59b67d-1945-417b-9886-711e1540a80e")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "D1")
 					(unit 1)
@@ -7686,7 +7686,7 @@
 			(uuid "ee955a79-44c1-4cdb-acc1-a6e0806029e6")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "U1")
 					(unit 1)
@@ -7874,7 +7874,7 @@
 			(uuid "219b5abc-17f9-429c-9907-61492b937d81")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R4")
 					(unit 1)
@@ -8066,7 +8066,7 @@
 			(uuid "66a9ea2a-1db3-4da8-818b-c114371b3ef2")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R3")
 					(unit 1)
@@ -8145,7 +8145,7 @@
 			(uuid "73c24168-3bbd-4e07-96c1-ff19487fc2bb")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR08")
 					(unit 1)
@@ -8309,7 +8309,7 @@
 			(uuid "708bb039-23b4-4296-9cf1-97de73a171a8")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "TP1")
 					(unit 1)
@@ -8388,7 +8388,7 @@
 			(uuid "d9e6710f-ca8a-44a5-a772-4657cff42777")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR05")
 					(unit 1)
@@ -8576,7 +8576,7 @@
 			(uuid "54511a96-410b-4a22-931e-2fe3fd204e94")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R7")
 					(unit 1)
@@ -8655,7 +8655,7 @@
 			(uuid "1e1fc679-1939-442f-98c9-566fa9b24667")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR09")
 					(unit 1)
@@ -8734,7 +8734,7 @@
 			(uuid "826f25c3-7ce2-44cd-a83d-92762a95bfef")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR013")
 					(unit 1)
@@ -8985,7 +8985,7 @@
 			(uuid "ba711a27-1fcb-4e69-82b6-5c29a65ac531")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "J3")
 					(unit 1)
@@ -9169,7 +9169,7 @@
 			(uuid "3c7460f4-abe3-4fe5-93ad-6a8690f510af")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "J1")
 					(unit 1)
@@ -9357,7 +9357,7 @@
 			(uuid "e429b379-6d96-4d12-af56-ee8bdfc11f5a")
 		)
 		(instances
-			(project "Wio-SX1262 for ESP32S3"
+			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "R6")
 					(unit 1)

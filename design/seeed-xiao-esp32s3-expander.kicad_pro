@@ -473,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Wio-SX1262 for ESP32S3.kicad_pro",
+    "filename": "seeed-xiao-esp32s3-expander.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -640,8 +640,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Wio-SX1262 for ESP32S3.kicad_sch",
-        "name": "Wio-SX1262 for ESP32S3",
+        "filename": "seeed-xiao-esp32s3-expander.kicad_sch",
+        "name": "seeed-xiao-esp32s3-expander",
         "uuid": "ddd1596a-1fdb-4457-bd34-9991d769f287"
       }
     ],
