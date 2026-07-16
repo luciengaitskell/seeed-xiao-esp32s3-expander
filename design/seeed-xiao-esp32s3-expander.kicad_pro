@@ -651,7 +651,7 @@
   "sheets": [
     [
       "ddd1596a-1fdb-4457-bd34-9991d769f287",
-      "Wio-SX1262 for ESP32S3"
+      "seeed-xiao-esp32s3-expander"
     ]
   ],
   "text_variables": {},
