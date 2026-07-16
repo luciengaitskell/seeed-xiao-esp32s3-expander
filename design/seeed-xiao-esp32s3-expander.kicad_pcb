@@ -290,6 +290,12 @@
 		(path "/bedf0d38-b588-4282-938f-5b543ee202c0")
 		(sheetname "/")
 		(sheetfile "seeed-xiao-esp32s3-expander.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1312,7 +1318,7 @@
 		(at 122.02 124.65)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO21"
+		(property "Reference" "+3V3"
 			(at 0 2.35 0)
 			(layer "F.SilkS")
 			(uuid "98a58947-f8be-4977-aa0c-d3d53171067c")
@@ -1397,7 +1403,7 @@
 			(at 0 -1.25)
 			(size 1.7 0.8)
 			(layers "F.Cu" "F.Mask")
-			(net "GPIO21")
+			(net "+3V3")
 			(uuid "18a6856e-68b4-4bc5-885e-4b64dba1fd0d")
 		)
 		(pad "" smd roundrect
@@ -1405,7 +1411,7 @@
 			(size 1.7 3)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "GPIO21")
+			(net "+3V3")
 			(uuid "59820520-4ef5-4017-a7a0-f348db60ec10")
 		)
 		(embedded_fonts no)
@@ -1726,7 +1732,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GPIO21")
+			(net "+3V3")
 			(pinfunction "Pin_7_7")
 			(pintype "passive")
 			(uuid "794acd51-a966-4abb-a438-e190483d25ba")
@@ -107485,15 +107491,6 @@
 		(net "GPIO18")
 		(uuid "c3ee562e-4454-4068-b3ee-3c42d7f765d2")
 	)
-	(via
-		(at 122.02 126)
-		(size 1.5)
-		(drill 1)
-		(layers "F.Cu" "B.Cu")
-		(locked yes)
-		(net "GPIO21")
-		(uuid "e9231be2-8521-425a-baf7-218cec847a3e")
-	)
 	(segment
 		(start 119.360598 127.139402)
 		(end 119.360598 128.28809)
@@ -107704,6 +107701,15 @@
 		(filling no)
 		(net "+3V3")
 		(uuid "6a038fb9-32a6-4628-8fc2-419b044bf2e8")
+	)
+	(via
+		(at 122.02 126)
+		(size 1.5)
+		(drill 1)
+		(layers "F.Cu" "B.Cu")
+		(locked yes)
+		(net "+3V3")
+		(uuid "e9231be2-8521-425a-baf7-218cec847a3e")
 	)
 	(segment
 		(start 118.560598 127.679198)

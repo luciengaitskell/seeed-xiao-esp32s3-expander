@@ -2335,16 +2335,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 97.79) (xy 86.36 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4604429e-0bc4-479c-a6ef-66348a96a93e")
-	)
-	(wire
-		(pts
 			(xy 165.1 80.01) (xy 179.07 80.01)
 		)
 		(stroke
@@ -2372,6 +2362,16 @@
 			(type default)
 		)
 		(uuid "51ecf5ab-5c85-4c4d-8c46-0c2b1076f822")
+	)
+	(wire
+		(pts
+			(xy 67.31 97.79) (xy 67.31 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a370b5-c5dc-4076-9234-877a23b0126e")
 	)
 	(wire
 		(pts
@@ -2585,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 97.79) (xy 86.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcbb80c-84c1-4003-af08-7678f0969d73")
+	)
+	(wire
+		(pts
 			(xy 123.19 97.79) (xy 123.19 100.33)
 		)
 		(stroke
@@ -2742,16 +2752,6 @@
 			(justify left bottom)
 		)
 		(uuid "d1f1309c-ba59-49f9-9293-ad429444004a")
-	)
-	(label "GPIO21"
-		(at 71.12 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d608b657-9d4b-4113-bd96-81f00736299e")
 	)
 	(label "GPIO17"
 		(at 71.12 92.71 0)
@@ -3375,7 +3375,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "604f476f-27f7-47b6-add9-9a9704de8745")
 		(property "Reference" "#PWR015"
 			(at 67.31 90.17 0)
@@ -3389,7 +3388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 88.9 0)
+			(at 64.516 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3438,6 +3437,83 @@
 			(project "seeed-xiao-esp32s3-expander"
 				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Gnd:+3V3")
+		(at 67.31 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a4d78a0-351a-4e04-8180-2f9cf31f0893")
+		(property "Reference" "#PWR016"
+			(at 67.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 64.008 93.218 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 67.31 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34d21b87-57b8-4344-a548-55fbf1f43136")
+		)
+		(instances
+			(project "seeed-xiao-esp32s3-expander"
+				(path "/ddd1596a-1fdb-4457-bd34-9991d769f287"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
