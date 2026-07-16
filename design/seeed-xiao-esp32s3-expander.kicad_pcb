@@ -131,16 +131,16 @@
 			(outputdirectory "../gerber/")
 		)
 	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
+	(footprint "seeed-xiao-esp32s3-expander:SolderPad_1x01_SMD"
 		(layer "F.Cu")
-		(uuid "43338722-dc5b-4de4-9b67-9de689348d6b")
-		(at 109.3216 122.3264)
+		(uuid "c1b06697-9fda-475c-931c-b2f02588280c")
+		(at 106.8 122.05)
 		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
 		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO15"
-			(at 0 4.6736 0)
+		(property "Reference" "REF**"
+			(at 0 2.45 0)
 			(layer "F.SilkS")
-			(uuid "dedb624d-fc56-4285-acfe-3d0028b2aa62")
+			(uuid "26fc9252-9b67-4433-9b16-c733c30c940b")
 			(effects
 				(font
 					(size 0.25 0.25)
@@ -148,10 +148,10 @@
 				)
 			)
 		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
+		(property "Value" "SolderPad_1x01_SMD"
 			(at 0 2.54 0)
 			(layer "F.Fab")
-			(uuid "9a15ab27-39e4-4e86-b16f-e0061d27bc57")
+			(uuid "bb2bba8f-cb4a-4dbc-96a4-1f6827c7d7bf")
 			(effects
 				(font
 					(size 1 1)
@@ -163,7 +163,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5d0d471-1753-4081-9ba0-b1bef28fac1b")
+			(uuid "7c2490dc-f0bf-4956-b2d6-f9fd47b95b72")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,7 +175,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd9ad004-ea9a-41c6-b0c4-9af3ae75cb90")
+			(uuid "f128840a-5481-4b37-bb35-9d62157cf18a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -1.25 -2.25)
+			(start -1.25 -2)
 			(end 1.25 2.25)
 			(stroke
 				(width 0.05)
@@ -194,10 +194,10 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "8b61f810-64f1-4afa-b05c-2422eb0a90b0")
+			(uuid "37266d8d-930d-4ad4-9c01-58e4c7709bb5")
 		)
 		(fp_rect
-			(start -1.15 -2.15)
+			(start -1.15 -2)
 			(end 1.15 2.15)
 			(stroke
 				(width 0.1)
@@ -205,12 +205,12 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "3aa1eded-2374-4a94-a820-02de1d00f0d9")
+			(uuid "13540bf7-fd16-4a32-b7fe-91a3a02a4700")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "a2feacef-a9fe-4f19-8d56-f01e297885a1")
+			(uuid "ec1bf326-2ea6-4f3f-94bc-fce9b30b98fa")
 			(effects
 				(font
 					(size 1 1)
@@ -218,603 +218,26 @@
 				)
 			)
 		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
+		(pad "" smd rect
+			(at 0 -1.6)
+			(size 1.5 0.8)
 			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO15")
-			(uuid "426533a4-4976-4c7e-a6ec-9080c3309839")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "45043384-1645-4cb6-bab8-a7c96d085591")
-		(at 114.4016 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO17"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "95e930bc-8103-44ad-881b-897df6b38ee1")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "f3f4d356-4c0d-44f7-9014-4bc1b9e3e4db")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a9374ec-585a-4e2d-8499-f1c26beefd73")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2038e948-ecbf-4d16-ad94-04a295007cd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a878139f-b512-473b-ba71-bd0f8fb52cfb")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "972c9662-3d05-42c6-9604-8867bf42941a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "4b0447ef-8979-4016-87c4-5c6864c05179")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "896d3168-eb95-4c79-af31-5e03d305d7c2")
 		)
 		(pad "" smd roundrect
 			(at 0 0)
-			(size 2 4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO17")
-			(uuid "fd0093dc-d31c-4648-bb7f-3cf24bf1b15e")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "5c6c2eda-8996-473f-a2a3-680806e5e311")
-		(at 122.0216 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO48"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "e12de585-325b-4b11-b5e9-8c1307ce52e9")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "dcaf5930-2923-4802-88c4-5bf8ae08a6a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "759e8830-cb3b-4ca2-a4cc-e95b249726b2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f08fd106-663c-4f09-80fc-e82457877997")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d9a3892a-aaf6-4e19-8152-c034341d7e11")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "80454212-320d-4dca-a19f-a2c03d8483a6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "17851aa2-a21e-439f-b909-3c77d615b8cc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO48")
-			(uuid "a0df6727-4f4c-4d90-a5aa-6a07825e9e23")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "84ea09e7-af17-4c74-b230-3cf50462690a")
-		(at 119.4816 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO47"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "aa7a5175-6eed-4d7d-92bb-0e0243e4acab")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "9e919962-c2b9-49e8-90ca-8772bd88bb78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b74539f0-eb7c-4129-8e25-685b18b31d9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69c9b758-708d-476a-bde6-206363d9105a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "0195ec60-b6d0-4d9e-95b6-a0d914a6116e")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "2e3a2c75-8cc0-485d-b486-0fcc315c045e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "7a94847f-6e95-4b53-9ae9-fff6edd51e57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO47")
-			(uuid "f074b20b-0f0b-4afd-8d85-ac1578b9a82f")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "ae937da3-e703-49ce-93f6-57c7f5c1e29d")
-		(at 116.9416 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO18"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "5546e128-6a4a-4810-a52a-02b72dbf3f7d")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "8b8dd9d6-c176-47ff-a6e5-ffebdbe9ad76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0f035cf-4792-4b93-ba01-ee680958f71f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa478f1d-57d5-4421-b29f-5ff793b48e29")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a3082e6b-37af-4876-8db6-ad33b12d7a3f")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "c380396c-e145-416d-bed3-3162ed5ea0de")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "c110d27c-e800-4e17-a8ea-a26746008be3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO18")
-			(uuid "df21afdc-6a66-4e55-82f1-0f0d6e2a9642")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "c3dc5fc3-9928-4e24-b21d-e5f12992629c")
-		(at 111.8616 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO16"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "d926c30a-6422-4c56-83a1-2b8fde916bf2")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "d01bfd04-e0a9-49c6-bd91-8c24ca969333")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "13d5c560-5ae4-4273-9076-de9724f3f50e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eafff19d-fb40-48d5-bbd5-6d87aa0bd1cf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d5c72d71-9372-4212-9050-0abcba4374e0")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "f865780d-f25e-44c7-9ac7-377a062138cf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "8f05172f-da13-474e-b082-e6b2ff1b4cc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GPIO16")
-			(uuid "70ef65f9-b3e7-45e9-841d-6d17a414b464")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
-		(layer "F.Cu")
-		(uuid "dfae1268-4c5e-4513-8f81-593bf1673d2c")
-		(at 106.7816 122.3264)
-		(descr "Wire Pad, Square, SMD Pad,  2mm x 4mm")
-		(tags "MeasurementPoint Square SMDPad 2mmx4mm ")
-		(property "Reference" "GPIO14"
-			(at 0 4.6736 0)
-			(layer "F.SilkS")
-			(uuid "faf01901-b365-473d-9153-40cc5b2258ef")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.0625)
-				)
-			)
-		)
-		(property "Value" "SolderWirePad_1x01_SMD_2x4mm"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "c3e5f1f2-35d6-43af-95d9-02d38486ab7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "edf43cac-b43d-4109-b0be-1e5f0e5e1b26")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9fed058-e310-4433-aeaf-292f92832393")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.25 -2.25)
-			(end 1.25 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7cdbe481-07d3-4a13-9b0d-eaf6b6405d37")
-		)
-		(fp_rect
-			(start -1.15 -2.15)
-			(end 1.15 2.15)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "35049c47-97b6-429b-b94b-6400214a5bbc")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f798d1be-0c5f-4207-aaf4-54d978dd52ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at 0 0)
-			(size 2 4)
+			(size 1.5 4)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net "GPIO14")
-			(uuid "90c2f033-6031-4a16-8bf8-e963075d632e")
+			(uuid "7e904fc0-b4ca-498c-80a6-ecdc8f8fdcba")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "Connector:H7-2.54"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "ff6e0717-3190-42d6-8c1a-df8ed1b344cf")
-		(at 114.4016 125.877 90)
+		(at 114.4016 119.2 90)
 		(property "Reference" "J1"
 			(at 0.298402 0.34651 0)
 			(layer "F.Fab")
@@ -970,12 +393,6 @@
 		(path "/f218ebe8-3d76-4790-9ffe-b58ac4046366")
 		(sheetname "/")
 		(sheetfile "seeed-xiao-esp32s3-expander.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7")
-			)
-		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.27 -8.89)
@@ -1018,8 +435,8 @@
 			(uuid "2b1aa8c2-1e95-4540-8722-6c82f5738844")
 		)
 		(fp_rect
-			(start -1.27 -8.89)
-			(end 1.27 8.89)
+			(start -0.85 -8.89)
+			(end 0.85 8.89)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -106883,6 +106300,14 @@
 		(net "GPIO48")
 		(uuid "8b5d9f61-5890-4b48-b7cf-357dd07c2130")
 	)
+	(via
+		(at 106.8 124.1)
+		(size 1.5)
+		(drill 1)
+		(layers "F.Cu" "B.Cu")
+		(net "GPIO14")
+		(uuid "e4817e63-1989-41b3-a75d-a00a74b4e007")
+	)
 	(segment
 		(start 115.360598 131.24809)
 		(end 115.360598 130.397398)
@@ -106962,14 +106387,6 @@
 		(layer "B.Cu")
 		(net "unconnected-(J3-Pad6)")
 		(uuid "7ad75df1-059c-446d-b688-3322ed68feaa")
-	)
-	(segment
-		(start 114.960598 128.28809)
-		(end 114.960598 126.314002)
-		(width 0.127)
-		(layer "B.Cu")
-		(net "unconnected-(J3-Pad7)")
-		(uuid "01bb41d0-f811-46ab-bc33-be561198bcdb")
 	)
 	(segment
 		(start 116.7384 126.9492)
